@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li class="logo"><img src="photoes/logo.png" alt="spotify" />Spotify</li>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="songlist">
+        <h1>Non-Copyright music</h1>
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img src="photoes/1.jpg" alt="1" />
+            <span class="songname">Dilliwaali girlfriend</span>
+            <span class="playlist"><span class="gapicon">05:30</span><i id="0" class="Songitemplay fa-solid fa-circle-play"></i></span>
+          </div>
+          <div class="songitem">
+            <img src="photoes/1.jpg" alt="1" />
+            <span class="songname">Dilliwaali girlfriend</span>
+            <span class="playlist"><span class="gapicon">05:30</span><i id="1" class="Songitemplay fa-solid fa-circle-play"></i></span>
+          </div>
+          <div class="songitem">
+            <img src="photoes/1.jpg" alt="1" />
+            <span class="songname">Dilliwaali girlfriend</span>
+            <span class="playlist"><span class="gapicon">05:30</span><i id="2" class="Songitemplay fa-solid fa-circle-play"></i></span>
+          </div>
+          <div class="songitem">
+            <img src="photoes/1.jpg" alt="1" />
+            <span class="songname">Dilliwaali girlfriend</span>
+            <span class="playlist"><span class="gapicon">05:30</span><i id="3" class="Songitemplay fa-solid fa-circle-play"></i></span>
+          </div>
+          <div class="songitem">
+            <img src="photoes/1.jpg" alt="1" />
+            <span class="songname">Dilliwaali girlfriend</span>
+            <span class="playlist"><span class="gapicon">05:30</span><i id="4" class="Songitemplay fa-solid fa-circle-play"></i></span>
+          </div>
+          
+        </div>
+      </div>
+      <div class="songbar"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100" />
+        <div class="icons">
+            <i class="fa-sharp fa-3x fa-solid fa-backward-step " id="previousSong"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-forward-step" id="nextSong"></i>
+            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+        </div>
+        <div class="songinfo">
+            <img src="photoes/wave.gif" alt="1" id="gif">
+            <span id="masterindex">dilliwalli</span>
+        </div>
+    </div>
+      
+    
+    <script
+      src="https://kit.fontawesome.com/3fdec0c62a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    
+  </body>
+</html>

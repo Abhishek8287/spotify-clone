@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Merriweather:wght@300;400&family=Sacramento&display=swap");
+
+body {
+  background-color: rgb(206, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px;
+}
+.logo img {
+  width: 44px;
+  padding: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 75vw;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.bottom {
+  position: sticky;
+
+  height: 100px;
+  background-color: beige;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.songinfo img {
+  width: 25px;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#myprogressbar {
+    width: 85vw;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+  margin: 2px 5px;
+}
+.songitem {
+  height: 70px;
+  background-color: white;
+  border-radius: 34px;
+
+  display: flex;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songitemcontainer {
+  margin-top: 40px;
+}
+
+.songitem img {
+  width: 48px;
+  margin: 0 23px;
+  border-radius: 40px;
+}
+
+.gapicon {
+  margin: 0 10px;
+}
+
+.playlist i {
+  cursor: pointer;
+}
